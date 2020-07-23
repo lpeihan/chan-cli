@@ -9,7 +9,16 @@
   "bin": {
     "chan-cli": "bin/www"
   },
-  "keywords": [],
+  "homepage": "https://github.com/lpeihan/chan-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lpeihan/chan-cli"
+  },
+  "keywords": [
+    "cli",
+    "vue-cli",
+    "chan-cli"
+  ],
   "author": "lipeihan",
   "license": "ISC",
   "dependencies": {
