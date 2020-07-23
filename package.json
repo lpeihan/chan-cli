@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
   "bin": {
     "chan-cli": "bin/www"
@@ -24,6 +25,7 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^6.0.0",
+    "conventional-changelog-cli": "^2.0.34",
     "download-git-repo": "^3.0.2",
     "handlebars": "^4.7.6",
     "inquirer": "^7.3.3",
